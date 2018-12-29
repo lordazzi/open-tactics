@@ -1,0 +1,49 @@
+{
+  "name": "cobol-driver",
+  "version": "1.0.0",
+  "description": "Core library for open tactics. Contains the models, exceptions and logic core of the project. As open source project, there is no problem this lib to be installed in the front-end and in the back-end application",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "build": "gulp generate-package"
+  },
+  "keywords": [
+    "cobol",
+    "driver",
+    "js",
+    "ts",
+    "cbl",
+    "cpy",
+    "javascript",
+    "typescript",
+    "drive"
+  ],
+  "author": "Ricardo Azzi Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "2.8.6",
+    "@types/node": "10.9.4",
+    "coveralls": "3.0.1",
+    "es6-module-loader": "0.17.11",
+    "gulp": "3.9.1",
+    "gulp-clean": "0.4.0",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-tar": "2.1.0",
+    "gulp-typescript": "5.0.0-alpha.3",
+    "jasmine": "2.5.3",
+    "jasmine-core": "2.8.0",
+    "karma": "2.0.2",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-coverage-istanbul-reporter": "1.3.0",
+    "karma-jasmine": "1.1.0",
+    "karma-systemjs": "0.16.0",
+    "karma-typescript-preprocessor": "0.3.1",
+    "progress": "1.1.8",
+    "systemjs": "0.19.3",
+    "tslint": "4.4.2",
+    "typescript": "3.0.3"
+  },
+  "dependencies": {
+    "calc-js": "1.3.0"
+  }
+}
